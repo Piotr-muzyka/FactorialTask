@@ -22,7 +22,7 @@ public class CSVWrite {
 			}
 
 			else
-				line = i + "! = N/A";
+				line = "N/A";
 			writer.writeNext(new String[] { line });
 		}
 		writer.close();
